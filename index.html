@@ -10,26 +10,26 @@
   <section class="container">
     <div class="calculator">
       <h1>Arithmetic Calculator</h1>
-      <label for="value1">
-        <input type="number" id="value1">
-        <span class="warn warn1"></span>
-      </label>
-        <select name="operator" id="operator">
-          <option value="*">*</option>
-          <option value="+">+</option>
-          <option value="-">-</option>
-          <option value="/">/</option>
-          <option value="%">%</option>
-        </select>
-        <label for="value2">
-          <input type="number" id="value2">
-          <span class="warn warn2"></span>
+      <div class="main-calculator">
+        <label for="value1">
+          <input type="number" id="value1">
+          <span class="warn warn1"></span>
         </label>
-      <button id="calculate">Calculate</button>
+          <select name="operator" id="operator">
+            <option value="*">*</option>
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="/">/</option>
+            <option value="%">%</option>
+          </select>
+          <label for="value2">
+            <input type="number" id="value2">
+            <span class="warn warn2"></span>
+          </label>
+        <button id="calculate">Calculate</button>
+      </div>
     </div>
-    <div class="result">
-      5
-    </div>
+    <div class="result"></div>
   </section>
 
 

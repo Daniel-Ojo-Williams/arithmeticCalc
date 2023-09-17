@@ -94,3 +94,30 @@ label {
   min-height: 100px;
 }
 
+@media screen and (max-width: 768px) {
+  .main-calculator {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  #calculate {
+    grid-column: 1/-1;
+  }
+
+  .calculator {
+    padding: 0 80px;
+  }
+
+}
+@media screen and (max-width: 480px) {
+  .main-calculator {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    justify-content: center;
+  }
+}
+
+
