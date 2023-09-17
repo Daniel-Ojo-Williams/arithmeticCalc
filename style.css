@@ -108,7 +108,11 @@ label {
 
   .calculator {
     padding: 0 80px;
-  }
+  }  
+
+  section {
+    max-height: 100vh;
+}
 
 }
 @media screen and (max-width: 480px) {
@@ -118,6 +122,14 @@ label {
     gap: 10px;
     justify-content: center;
   }
+
+  section {
+    max-height: 100vh;
+}
+  }
+
+  section {
+    max-height: 100vh;
 }
 
 
